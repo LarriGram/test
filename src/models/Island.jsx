@@ -14,7 +14,7 @@ import { useEffect, useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 import { useFrame, useThree } from "@react-three/fiber";
 
-import islandScene from "../assets/3d/island.glb";
+import islandScene from "/Users/larriyahgraham/Desktop/TEST/3D_portfolio/src/assets/3d/officebuilding.glb";
 
 export function Island({
   isRotating,
@@ -214,33 +214,314 @@ export function Island({
   return (
     // {Island 3D model from: https://sketchfab.com/3d-models/foxs-islands-163b68e09fcc47618450150be7785907}
     <a.group ref={islandRef} {...props}>
-      <mesh
-        geometry={nodes.polySurface944_tree_body_0.geometry}
-        material={materials.PaletteMaterial001}
+       <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_4.geometry}
+        material={materials.add_res_objects_back_wall}
+        position={[-7.263, 11.365, -4.871]}
       />
       <mesh
-        geometry={nodes.polySurface945_tree1_0.geometry}
-        material={materials.PaletteMaterial001}
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_6.geometry}
+        material={materials.add_res_objects_side_wall}
+        position={[-7.263, 11.365, -4.871]}
       />
       <mesh
-        geometry={nodes.polySurface946_tree2_0.geometry}
-        material={materials.PaletteMaterial001}
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_8.geometry}
+        material={materials.back_gate}
+        position={[-42.939, 0.563, -4.125]}
       />
       <mesh
-        geometry={nodes.polySurface947_tree1_0.geometry}
-        material={materials.PaletteMaterial001}
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_10.geometry}
+        material={materials.barrier_left}
+        position={[-17.964, 0.956, 2.124]}
       />
       <mesh
-        geometry={nodes.polySurface948_tree_body_0.geometry}
-        material={materials.PaletteMaterial001}
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_12.geometry}
+        material={materials.barrier_mid}
+        position={[-3.679, 0.917, 2.276]}
       />
       <mesh
-        geometry={nodes.polySurface949_tree_body_0.geometry}
-        material={materials.PaletteMaterial001}
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_14.geometry}
+        material={materials.barrier_right}
+        position={[9.832, 0.616, 3.285]}
       />
       <mesh
-        geometry={nodes.pCube11_rocks1_0.geometry}
-        material={materials.PaletteMaterial001}
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_16.geometry}
+        material={materials.bridge}
+        position={[-10.145, 0.687, -3.888]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_18.geometry}
+        material={materials.building_brick_left}
+        position={[-6.029, 7.543, -0.471]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_20.geometry}
+        material={materials.building_brick_mid}
+        position={[-1.356, 14.907, -0.47]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_22.geometry}
+        material={materials.building_brick_right}
+        position={[11.26, 15.779, -0.467]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_24.geometry}
+        material={materials.building_lower}
+        position={[6.393, 2.078, -3.205]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_26.geometry}
+        material={materials.building_upper}
+        position={[1.913, 6.736, -7.274]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_28.geometry}
+        material={materials.building_upper_left}
+        position={[-7.263, 11.365, -4.871]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_30.geometry}
+        material={materials.building_upper_mid}
+        position={[2.675, 13.614, -0.182]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_32.geometry}
+        material={materials.building_upper_right}
+        position={[12.527, 13.505, -5.552]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_34.geometry}
+        material={materials.exterior_brick_left}
+        position={[-19.177, -0.028, 4.338]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_36.geometry}
+        material={materials.exterior_brick_left_mid}
+        position={[-10.419, -0.065, 5.586]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_38.geometry}
+        material={materials.exterior_brick_right}
+        position={[7.521, 0.046, 5.822]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_40.geometry}
+        material={materials.exterior_brick_right_mid}
+        position={[-1.054, -0.032, 5.961]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_42.geometry}
+        material={materials.ground_back}
+        position={[-13.871, 0.17, -8.45]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_44.geometry}
+        material={materials.ground_front}
+        position={[-13.022, 0.154, 2.628]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_46.geometry}
+        material={materials.ground_rim}
+        position={[-39.784, 0.111, -8.881]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_48.geometry}
+        material={materials.interior_brick_left}
+        position={[-15.527, 0.288, 0.572]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_50.geometry}
+        material={materials.interior_brick_mid}
+        position={[-1.293, 0.458, -0.273]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_52.geometry}
+        material={materials.interior_brick_right}
+        position={[8.883, 0.472, -1.854]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_54.geometry}
+        material={materials.lights}
+        position={[-0.984, 2.574, -0.589]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_56.geometry}
+        material={materials.lower_detail}
+        position={[5.998, 1.046, -7.526]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_58.geometry}
+        material={materials.pavement}
+        position={[-41.174, 0.022, -7.646]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_60.geometry}
+        material={materials.rails}
+        position={[-1.299, 1.14, 0.367]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_62.geometry}
+        material={materials.side_patio_back}
+        position={[12.968, -0.606, 1.828]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_64.geometry}
+        material={materials.side_patio_front}
+        position={[12.968, -0.606, 1.828]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_66.geometry}
+        material={materials.stairs_back}
+        position={[8.986, -0.086, -5.396]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_68.geometry}
+        material={materials.stairs_front}
+        position={[-0.628, 0.224, 2.749]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_70.geometry}
+        material={materials.tree_brick}
+        position={[-5.35, -0.034, 4.546]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_72.geometry}
+        material={materials.tree_foundation}
+        position={[-5.345, -0.032, 4.548]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_74.geometry}
+        material={materials.upper_grills}
+        position={[-1.68, 14.377, -9.822]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_76.geometry}
+        material={materials.walls}
+        position={[-30.575, 0.443, -2.713]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_78.geometry}
+        material={materials.building_lower_glass}
+        position={[6.393, 2.078, -3.205]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_80.geometry}
+        material={materials.building_upper_left_glass}
+        position={[-7.263, 11.365, -4.871]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_82.geometry}
+        material={materials.building_upper_mid_glass}
+        position={[2.675, 13.614, -0.182]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_84.geometry}
+        material={materials.building_upper_right_glass}
+        position={[12.527, 13.505, -5.552]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_86.geometry}
+        material={materials.bridge_glass}
+        position={[-10.145, 0.687, -3.888]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_88.geometry}
+        material={materials.lower_detail_door}
+        position={[-4.517, 2.914, -0.974]}
+        rotation={[0, 1.451, 0]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Object_90.geometry}
+        material={materials.room}
+        position={[-6.139, 2.935, -3.27]}
       />
     </a.group>
   );
