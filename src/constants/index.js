@@ -27,156 +27,84 @@ import {
 } from "../assets/icons";
 
 export const skills = [
+     
     {
-        imageUrl: css,
-        name: "CSS",
+        imageUrl: typescript,
+        name: "TypeScript",
         type: "Frontend",
     },
+
     {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
-    {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
-    },
-    {
-        imageUrl: html,
-        name: "HTML",
+        imageUrl: typescript,
+        name: "TypeScript",
         type: "Frontend",
     },
-    {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
-    },
+    
     {
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
     }
+
+     
 ];
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
+        title: "Gen Scholars",
+        company_name: "Yajaira",
         icon: starbucks,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        //date: "March 2020 - April 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Gen Scholars helps students find scholarships to fund college education.",
+            "We provide free resources on Instagram and LinkedIn.",
+            "We hold workshops for students on How to Find Scholarships",
+            "Currently we hold over 1,300 followers on all platforms"
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
+        title: "Media Service",
+        company_name: "Noori",
         icon: tesla,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        //date: "Jan 2021 - Feb 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "On site for university classes, events, and assorted occasions for the set up and break down of A/V equipment.",
+            "Responsible for the maintenance and organization of various A/V equipment.",
+            "On site for any electronic failure in regard to classroom, event, and specific stage equipment.",
+    
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
+        title: "Research Assistant",
+        company_name: "Larriyah Graham",
         icon: shopify,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        //date: "Jan 2022 - Jan 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            " Conducted comprehensive research on TikTok, focusing on content creation strategies, user interaction dynamics, and content categorization on the platform.",
+            "  Implemented TikTok APIs into the VIDEOLab platform, enhancing data integration and analysis capabilities",
+            
         ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+    } 
 ];
 
 export const socialLinks = [
+   
     {
-        name: 'Contact',
-        iconUrl: contact,
-        link: '/contact',
-    },
-    {
-        name: 'GitHub',
-        iconUrl: github,
+        name: 'Noori LinkedIn',
+        iconUrl: linkedin,
         link: 'https://github.com/YourGitHubUsername',
     },
     {
-        name: 'LinkedIn',
+        name: 'Larriyah LinkedIn',
+        iconUrl: linkedin,
+        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+    },
+
+    {
+        name: 'Yajaira LinkedIn',
         iconUrl: linkedin,
         link: 'https://www.linkedin.com/in/YourLinkedInUsername',
     }

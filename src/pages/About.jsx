@@ -30,7 +30,7 @@ const About = () => {
         <h3 className='subhead-text'>Our Team</h3>
 
         <div className='mt-16 flex flex-wrap gap-12'>
-          {skills.map((skill) => (
+          {/* {skills.map((skill) => (
             <div className='block-container w-20 h-20' key={skill.name}>
               <div className='btn-back rounded-xl' />
               <div className='btn-front rounded-xl flex justify-center items-center'>
@@ -41,7 +41,8 @@ const About = () => {
                 />
               </div>
             </div>
-          ))}
+          ))} */}
+          <image>  </image>
         </div>
       </div>
 
@@ -49,8 +50,7 @@ const About = () => {
         <h3 className='subhead-text'>Work Experience.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            I've worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
+             We do all kinds of work outside the classroom!
           </p>
         </div>
 
@@ -63,11 +63,11 @@ const About = () => {
                 iconStyle={{ background: experience.iconBg }}
                 icon={
                   <div className='flex justify-center items-center w-full h-full'>
-                    <img
+                    {/* <img
                       src={experience.icon}
                       alt={experience.company_name}
                       className='w-[60%] h-[60%] object-contain'
-                    />
+                    /> */}
                   </div>
                 }
                 contentStyle={{
