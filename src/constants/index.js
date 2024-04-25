@@ -1,48 +1,32 @@
+import { larri, noori, yaja } from "../assets/headshots";
 import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
     car,
-    contact,
-    css,
     estate,
-    express,
-    git,
-    github,
-    html,
-    javascript,
     linkedin,
-    mongodb,
-    motion,
-    mui,
-    nextjs,
-    nodejs,
     pricewise,
-    react,
-    redux,
-    sass,
     snapgram,
     summiz,
-    tailwindcss,
     threads,
-    typescript
 } from "../assets/icons";
 
 export const skills = [
      
     {
-        imageUrl: typescript,
-        name: "TypeScript",
+        imageUrl: larri,
+        name: "larri",
         type: "Frontend",
     },
 
     {
-        imageUrl: typescript,
-        name: "TypeScript",
+        imageUrl: noori,
+        name: "noori",
         type: "Frontend",
     },
     
     {
-        imageUrl: typescript,
-        name: "TypeScript",
+        imageUrl: yaja,
+        name: "yaja",
         type: "Frontend",
     }
 
@@ -95,18 +79,18 @@ export const socialLinks = [
     {
         name: 'Noori LinkedIn',
         iconUrl: linkedin,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://www.linkedin.com/in/noori-tween-018208290/',
     },
     {
         name: 'Larriyah LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/larriyah-g-7519b1217/',
     },
 
     {
         name: 'Yajaira LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/yajaira-bonilla/',
     }
 ];
 

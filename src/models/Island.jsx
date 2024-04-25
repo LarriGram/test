@@ -14,7 +14,7 @@ import { useEffect, useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 import { useFrame, useThree } from "@react-three/fiber";
 
-import islandScene from "/Users/larriyahgraham/Desktop/TEST/3D_portfolio/src/assets/3d/officebuilding.glb";
+import islandScene from "/Users/yajai/digi4/test/src/assets/3d/officebuilding.glb";
 
 export function Island({
   isRotating,
@@ -212,7 +212,6 @@ export function Island({
   });
 
   return (
-    // {Island 3D model from: https://sketchfab.com/3d-models/foxs-islands-163b68e09fcc47618450150be7785907}
     <a.group ref={islandRef} {...props}>
        <mesh
         castShadow
