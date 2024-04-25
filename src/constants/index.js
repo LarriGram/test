@@ -1,8 +1,8 @@
 import { larri, noori, yaja } from "../assets/headshots";
 import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
-    car,
     estate,
+    hamster,
     linkedin,
     pricewise,
     snapgram,
@@ -15,20 +15,17 @@ export const skills = [
     {
         imageUrl: larri,
         name: "larri",
-        type: "Frontend",
-    },
+     },
 
     {
         imageUrl: noori,
         name: "noori",
-        type: "Frontend",
-    },
+     },
     
     {
         imageUrl: yaja,
         name: "yaja",
-        type: "Frontend",
-    }
+     }
 
      
 ];
@@ -68,7 +65,7 @@ export const experiences = [
         //date: "Jan 2022 - Jan 2023",
         points: [
             " Conducted comprehensive research on TikTok, focusing on content creation strategies, user interaction dynamics, and content categorization on the platform.",
-            "  Implemented TikTok APIs into the VIDEOLab platform, enhancing data integration and analysis capabilities",
+            "Implemented TikTok APIs into the VIDEOLab platform, enhancing data integration and analysis capabilities",
             
         ],
     } 
@@ -98,43 +95,40 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Deciding Vite vs Django',
+        description: 'Hi my name is Hamster',
+        link: ' ',
     },
+
     {
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        iconUrl: pricewise,
+        theme: 'btn-back-red',
+        name: 'Learning Vite and React',
+        description: '',
+        link: ' ',
     },
+
     {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
+        iconUrl: pricewise,
+        theme: 'btn-back-red',
+        name: 'Finding Assets',
+        description: '',
+     },
+
     {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
-    },
+        iconUrl: pricewise,
+        theme: 'btn-back-red',
+        name: 'Using 3D Assets with React',
+        description: '',
+     },
+     
+
     {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+        iconUrl: pricewise,
+        theme: 'btn-back-red',
+        name: 'Animating them',
+        description: '',
+     },
+     
+     
 ];

@@ -13,7 +13,7 @@ const About = () => {
     <section className='max-container'>
       <h1 className='head-text'>
         Hello, I'm{" "}
-        <span className='blue-gradient_text font-semibold drop-shadow'>
+        <span className='blue-gradient_text font-poppins drop-shadow'>
           {" "}
           Digi
         </span>{" "}
@@ -36,6 +36,7 @@ const About = () => {
                 <img
                   src={skill.imageUrl}
                   alt={skill.name}
+  
                   className='w-20 h-20 object-contain'
                 />
               </div>
@@ -62,15 +63,11 @@ const About = () => {
                 iconStyle={{ background: experience.iconBg }}
                 icon={
                   <div className='flex justify-center items-center w-full h-full'>
-                    {/* <img
-                      src={experience.icon}
-                      alt={experience.company_name}
-                      className='w-[60%] h-[60%] object-contain'
-                    /> */}
+                     
                   </div>
                 }
                 contentStyle={{
-                  borderBottom: "8px",
+                  borderBottom: "10px",
                   borderStyle: "solid",
                   borderBottomColor: experience.iconBg,
                   boxShadow: "none",

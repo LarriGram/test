@@ -15,7 +15,7 @@ const Projects = () => {
       </h1>
 
       <p className='text-slate-500 mt-2 leading-relaxed'>
-        Want to add your project to our database? Lets get in touch.
+        Wanna know more about our project? Contact us!
       </p>
 
       <div className='flex flex-wrap my-20 gap-16'>
@@ -38,14 +38,7 @@ const Projects = () => {
               </h4>
               <p className='mt-2 text-slate-500'>{project.description}</p>
               <div className='mt-5 flex items-center gap-2 font-poppins'>
-                <Link
-                  to={project.link}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='font-semibold text-blue-600'
-                >
-                  Live Link
-                </Link>
+                
                 <img
                   src={arrow}
                   alt='arrow'
